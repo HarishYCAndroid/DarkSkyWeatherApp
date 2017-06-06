@@ -14,4 +14,4 @@ Concepts Used in Application :
 3)Recyler View - for binding dynamic data.
 4)Shared Preference - For data persistnece in client.
 5)MVVM design pattern.
-
+6)Runtime permissions
