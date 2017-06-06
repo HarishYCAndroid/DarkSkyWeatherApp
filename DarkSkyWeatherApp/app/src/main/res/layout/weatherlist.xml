@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/first"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/time1"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:gravity="center"
+            android:text="Date :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/time"
+         android:textSize="20dp"
+         android:textStyle="bold|italic"
+        android:gravity="center"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/sec"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first"
+        android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/summary1"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        android:text="Summary :"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/summary"
+         android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/thr"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sec"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/icon1"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:gravity="center"
+            android:text="Icon :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/icon"
+         android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/four"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thr"
+        android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/temperatureMin1"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        android:text="MiniTemperature :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/temperatureMin"
+         android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/five"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/four"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/tempreatureMax1"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:gravity="center"
+            android:text="MaxTemperature :"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tempreatureMax"
+         android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>
